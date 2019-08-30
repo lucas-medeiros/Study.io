@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "971303039269",
+    "firebase_url": "https://study-io-c54fa.firebaseio.com",
+    "project_id": "study-io-c54fa",
+    "storage_bucket": "study-io-c54fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971303039269:android:5d8a4f3f8d4c2ca9",
+        "android_client_info": {
+          "package_name": "com.example.zedlucas.studyio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971303039269-rtk6u66bu4n34hd083k4r7g2kgrnnlqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRD_d5Ag6KcoAugBUeW8LDR9jmYdKo_to"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zedlucas.studyio.MenuBiologiaActivity">
+
+    <TextView
+        android:id="@+id/textViewBio"
+        android:layout_width="121dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="BIOLOGIA"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLembretes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lembretes"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBio" />
+
+    <TextView
+        android:id="@+id/tvLembretesFis"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLembretes" />
+
+    <TextView
+        android:id="@+id/tvAtividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:text="Atividades"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLembretesFis"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvAtividadesFis"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAtividades" />
+
+    <EditText
+        android:id="@+id/etAtividadesBio"
+        android:layout_width="333dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Responda a atividade aqui"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAtividadesFis" />
+
+    <Button
+        android:id="@+id/bRespostaBio"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Submeter Resposta"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etAtividadesQui" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zedlucas.studyio.MenuAlunoActivity">
+
+    <Button
+        android:id="@+id/bPortugues"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="57dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Português"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Português" />
+
+    <Button
+        android:id="@+id/bGeografia"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Geografia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Geografia"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bPortugues" />
+
+    <Button
+        android:id="@+id/bBiologia"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Biologia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        tools:text="Biologia" />
+
+    <Button
+        android:id="@+id/bQuimica"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Química"
+        app:layout_constraintBottom_toTopOf="@+id/bBiologia"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Química" />
+
+    <Button
+        android:id="@+id/bFisica"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Física"
+        app:layout_constraintBottom_toTopOf="@+id/bQuimica"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bMatematica"
+        app:layout_constraintVertical_bias="0.112"
+        tools:text="Física" />
+
+    <Button
+        android:id="@+id/bMatematica"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Matemática"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Matemática" />
+
+    <Button
+        android:id="@+id/bHistoria"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimary"
+        android:text="História"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bGeografia"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/bBiologia"
+        app:layout_constraintVertical_bias="0.214" />
+
+</android.support.constraint.ConstraintLayout>
